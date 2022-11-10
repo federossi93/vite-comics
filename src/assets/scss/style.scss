@@ -1,2 +1,6 @@
-@use "/node_modules/bootstrap/scss/bootstrap.scss";
-
+// bootstrap
+@use "/node_modules/bootstrap";
+//NavBar
+@use "./partial/in_navBar.scss";
+//jumbo
+@use "./partial/in_jumbotron.scss";

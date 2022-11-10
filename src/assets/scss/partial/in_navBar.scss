@@ -1,0 +1,30 @@
+.navbar{
+    
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+
+            &:hover{
+                color: blue;
+                border-bottom: 5px solid blue;
+                padding-bottom: 5rem;
+
+            }
+
+            &.active{
+                color: blue;
+                border-bottom: 5px solid blue;
+                padding-bottom: 5rem;
+
+            }
+        }
+
+    }
+
+
+
+}
