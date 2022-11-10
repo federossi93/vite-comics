@@ -2,6 +2,7 @@
 import navBar from "./components/navBar.vue";
 import jumbo from "./components/jumbotron.vue";
 import card from "./components/generalCard.vue";
+import foterTop from "./components/footerTop.vue";
 
 export default{
   name: "app",
@@ -9,6 +10,7 @@ export default{
     navBar,
     jumbo,
     card,
+    foterTop,
   }
 }
 </script>
@@ -23,6 +25,10 @@ export default{
   <main>
     <card/>
   </main>
+
+  <footer>
+    <foterTop/>
+  </footer>
 
 
 </template>
