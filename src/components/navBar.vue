@@ -2,8 +2,8 @@
 
 <template>
     <div class="container">
-        <nav class="navbar navbar-expand-lg py-5">
-            <div class="container-fluid">
+        <nav class="navbar d-flex">
+            <div>
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
             <div>
