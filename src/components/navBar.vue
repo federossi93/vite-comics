@@ -1,4 +1,55 @@
-
+<script>
+export default{
+    name: "navBar",
+    data(){
+        return{
+            list:[
+                {
+                    text: "Characters",
+                    href: "#"
+                },
+                {
+                    text: "comics",
+                    href: "#"
+                },
+                {
+                    text: "movies",
+                    href: "#"
+                },
+                {
+                    text: "tv",
+                    href: "#"
+                },
+                {
+                    text: "games",
+                    href: "#"
+                },
+                {
+                    text: "collectibles",
+                    href: "#"
+                },
+                {
+                    text: "videos",
+                    href: "#"
+                },
+                {
+                    text: "fans",
+                    href: "#"
+                },
+                {
+                    text: "nevs",
+                    href: "#"
+                },
+                {
+                    text: "shop",
+                    href: "#"
+                },
+            ]
+        }
+    },
+    //funzioni
+}
+</script>
 
 <template>
     <div class="container">
@@ -8,16 +59,13 @@
             </div>
             <div>
                 <ul class="d-flex gap-4">
-                    <li><a href="">Characters</a></li>
-                    <li><a class="active" href="">comics</a></li>
-                    <li><a href="">movies</a></li>
-                    <li><a href="">tv</a></li>
-                    <li><a href="">games</a></li>
-                    <li><a href="">collectibles</a></li>
-                    <li><a href="">videos</a></li>
-                    <li><a href="">fans</a></li>
-                    <li><a href="">nevs</a></li>
-                    <li><a href="">shop</a></li>
+                    <li v-for="element in list">
+                        <a 
+                        :class="element.text == 'movies' ? 'active' : '' " 
+                        :href="element.href">
+                        {{element.text}}
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
