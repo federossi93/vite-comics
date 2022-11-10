@@ -1,6 +1,4 @@
 <script>
-
-
 export default{
   name: "app",
   components:{
@@ -12,7 +10,7 @@ export default{
 <template>
   
 
-  
+
 </template>
 
 <style scoped>
