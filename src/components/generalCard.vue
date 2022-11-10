@@ -2,7 +2,7 @@
 
 <template>
 
-    <div class="generalCard bg-primary py-5">
+    <div class="generalCard py-5">
         <div class="container">
             <div class="row rows-col-5 justify-content-center align-items-center">
                 <div class="col">
