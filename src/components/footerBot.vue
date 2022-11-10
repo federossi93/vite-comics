@@ -1,4 +1,8 @@
-
+<script>
+export default{
+    name:"footerBot"
+}
+</script>
 
 <template>
     <div class="footerBot bg-dark py-4">

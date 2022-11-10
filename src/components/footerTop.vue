@@ -1,4 +1,8 @@
-
+<script>
+export default{
+    name:"footerTop"
+}
+</script>
 
 
 <template>

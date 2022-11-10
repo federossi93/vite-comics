@@ -1,4 +1,8 @@
-
+<script>
+export default{
+    name:"jumbotron"
+}
+</script>
 
 <template>
 
