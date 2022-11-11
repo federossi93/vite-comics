@@ -2,7 +2,7 @@
 import AppDinamicCard from "./AppDinamicCards.vue";
 export default {
     name: "jumbotron",
-    components:{
+    components: {
         AppDinamicCard,
     }
 }
@@ -12,7 +12,10 @@ export default {
 
     <div class="jumbo"></div>
     <div class="bg-dark py-5">
-        <AppDinamicCard/>
+
+        <AppDinamicCard />
+
+        
     </div>
 
 
