@@ -1,17 +1,28 @@
 <script>
-export default{
-    name:"jumbotron"
+import AppDinamicCard from "./AppDinamicCard.vue";
+export default {
+    name: "jumbotron",
+    components:{
+        AppDinamicCard,
+    }
 }
 </script>
 
 <template>
 
-<div class="jumbo bg-dark py-5">
-    <div class="container">
-        <div class="jumbo ">
-            <h2 class="text-light">Content goes here</h2>
-        </div>
+    <div class="jumbo"></div>
+    <div class="bg-dark py-5">
+        <AppDinamicCard/>
     </div>
-</div>
-    
+
+
 </template>
+
+<style lang="scss">
+.jumbo {
+    height: 600px;
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
