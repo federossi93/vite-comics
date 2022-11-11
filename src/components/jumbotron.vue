@@ -1,5 +1,5 @@
 <script>
-import AppDinamicCard from "./AppDinamicCard.vue";
+import AppDinamicCard from "./AppDinamicCards.vue";
 export default {
     name: "jumbotron",
     components:{
